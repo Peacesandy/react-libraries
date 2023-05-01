@@ -1,10 +1,11 @@
-
 import './App.css';
+import Contactus from './Components/Contactus';
+
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+       <Contactus/>
     </div>
   );
 }
