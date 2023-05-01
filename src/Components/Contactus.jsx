@@ -1,10 +1,11 @@
 import React from 'react'
 import { Formik, Form, Field, ErrorMessage} from 'formik'
 import axios from 'axios'
+import '../Styles/Form.css'
 
 function Contactus() {
   return (
-    <div>
+    <div className='form-container'>
         <h1>Contact Us</h1>
         <Formik 
           initialValues={{ name: "", email: "", subject: "", message: "" }}
